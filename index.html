@@ -217,12 +217,19 @@
         }
 
         .nav-logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             font-size: 0.875rem;
             font-weight: 600;
             letter-spacing: 0.06em;
             text-transform: uppercase;
             color: var(--black);
             text-decoration: none;
+        }
+
+        .nav-logo svg {
+            flex-shrink: 0;
         }
 
         .nav-cta {
@@ -840,7 +847,14 @@
     <!-- ── NAV ──────────────────────────────────────────────── -->
     <nav>
         <div class="nav-inner">
-            <a href="/" class="nav-logo">iamprojectman</a>
+            <a href="/" class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28">
+                    <rect width="32" height="32" rx="4" fill="#171717"/>
+                    <path d="M 6,24 L 6,7 L 16,16 L 26,7 L 26,24" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="6"/>
+                    <line x1="5.5" y1="27.5" x2="26.5" y2="27.5" stroke="#525252" stroke-width="0.8"/>
+                </svg>
+                iamprojectman
+            </a>
             <a href="https://calendly.com/miha-iamprojectman/30min" target="_blank" rel="noopener" class="nav-cta">Book a Call &rarr;</a>
         </div>
     </nav>
