@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+
+  <!-- Background: brand dark #171717, slight radius for modern favicon contexts -->
+  <rect width="32" height="32" rx="4" fill="#171717"/>
+
+  <!-- M letterform: stroked open path — left arm up, chevron down to V, right arm up and down -->
+  <!-- V notch sits at 53% depth, matching Inter Bold proportions -->
+  <path
+    d="M 6,24 L 6,7 L 16,16 L 26,7 L 26,24"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3.6"
+    stroke-linecap="butt"
+    stroke-linejoin="miter"
+    stroke-miterlimit="6"
+  />
+
+  <!-- Bridge line: the brand signature element — sits just below the M, muted -->
+  <line x1="5.5" y1="27.5" x2="26.5" y2="27.5"
+        stroke="#525252"
+        stroke-width="0.8"/>
+
+</svg>
